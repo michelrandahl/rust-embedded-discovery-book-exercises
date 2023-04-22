@@ -1,5 +1,5 @@
 [toolchain]
-channel = "nightly" # or "nightly-YYYY-MM-DD" for a specific date
+channel = "nightly-2023-04-22" # or "nightly-YYYY-MM-DD" for a specific date
 profile = "minimal"
 components = [ "rust-src", "llvm-tools-preview" ]
 targets = [ "thumbv7em-none-eabihf", "arm-unknown-linux-gnueabihf" ]
