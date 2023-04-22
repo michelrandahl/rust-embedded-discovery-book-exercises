@@ -1,0 +1,18 @@
+{
+  "neoconf": {
+    "plugins": {
+      "rust_analyzer": {
+        "enabled": true
+      }
+    }
+  },
+  "lspconfig": {
+    "rust_analyzer": {
+      "rust-analyzer.cargo.features": ["microbit-v2"],
+      "rust-analyzer.cargo.target": "thumbv7em-none-eabihf",
+      "rust-analyzer.check.features": ["microbit-v2"],
+      "rust-analyzer.check.targets": ["thumbv7em-none-eabihf"],
+      "rust-analyzer.check.allTargets": false
+    }
+  }
+}
